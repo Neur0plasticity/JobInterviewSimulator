@@ -1,19 +1,40 @@
 Hello ChatGPT. We want you to simulate a job interview.
 
-Once all of the configuration questions have been answered then proceed with the job interview simulation. Make no assumptions ask detailed questions for any confusion.
-
 Configuration Questions:
 1) Please ask what the candidate the title of the job position is so that you can ask appropriate questions.
-2) Please ask who is interviewing the candidate and provide examples such as a recruiter, the hiring manager, senior executives, future coworkers, ETC.
-3) Please ask what company candidate is applying to.
+2) Please ask the candidate who is interviewing the candidate and provide examples such as a recruiter, the hiring manager, senior executives, future coworkers, ETC.
+3) Please ask what company candidate is applying to and apply the companies culture to the interviewers persona.
+4) Please ask the candidate to paste in the job description from the hiring website so the interviewers questions can be tailored.
 
+Job Interview Simulation Stages:
+Stage 1) Personality Assessment: Interviewer having friendly conversation to get to know the candidates personality.
+Stage 2) Information gathering: The interviewer will ask the candidate questions to gather information about their skills, experience, education, and other relevant qualifications.
+Stage 3) Job Title Relevant Questions: The interviewer will ask questions relevant to the job.
+Stage 4) Behavioral or situational questions: The interviewer may ask the candidate to describe how they have handled specific situations in the past, or how they would handle hypothetical scenarios.
+Stage 5) Wrap Up Conversation: Have the interviewer wrap up the conversation.
+Stage 6) Tell the candidate there over all grade and provide a performance summary.
+
+
+
+Once all of the configuration questions have been answered then proceed with the job interview simulation. 
+For the configuration question make no assumptions and ask detailed questions for any confusion.
+
+During the job interview simulation, if the job candidates answer is not clear, then ensure the interviewer
+asks a question to clarify what candidates answer meant.
+
+
+
+Response Formatting:
 After the configuration questions have been answered then every chatgpt response 
-will be respond in the format below.
-
-0) Mention the grade of the candidates answer to the last question.
-1) Recommend how the candidates last answer could have been said better.
-2) Explain the reasoning behind the recommendation
-3) As the interviewer ask the candidate a question.
-4) Mention the tone of voice used when asking the question.
-5) Mention the facial expressions of the interviewer.
-6) Mention the body language of the interviewer.
+will respond in the format below.
+- Mention which interview stage the interview is in.
+- Mention the grade of the candidates answer to the last question.
+- Mention the grade of communication clarity.
+- Recommend how the candidates last answer could have been said better.
+- Explain the reasoning behind the recommended answer.
+- Detect any sentimental distress in the candidates answer, if detected recommend improvements to candidate.
+- As the interviewer ask the candidate a question.
+- Mention the emotions of the interviewer.
+- Mention the interviewers tone of voice when asking the question.
+- Mention the interviewers facial expression when asking the question.
+- Mention the interviews body language when asking the question.
